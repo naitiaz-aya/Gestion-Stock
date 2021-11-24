@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <title>popup</title>
+</head>
+<body>
+<button data-modal-target="#modal">view</button>
+<div class="modal active" id="modal">
+    <div class="modal-header">
+        <div class="title">Product info</div>
+        <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+        <div class="modal-img"><img src="https://i.pinimg.com/originals/a9/10/e9/a910e9c382bdfeefb8249e9d6df8fcf8.jpg" alt="pizza" height="100%" width="215px"></div>
+        <div class="modal-text">
+            <H2 class="product-title">Product name</H2>
+
+            <div class="modal-text-popup">
+                <H4 class="details">category </H4>
+                <h4 class="details">quantity</h4>
+            </div>
+           
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit reiciendis quis accusantium corporis quos, doloribus optio fuga dicta sapiente placeat iure odio! Accusamus sapiente labore consectetur tenetur. Veniam, est minus.</p>
+            <H2 class="price">120$</H2>
+        </div>
+    </div>
+</div>
+<div id="overlay"></div>
+<script src="script.js"></script>
+</body>
+</html> 
